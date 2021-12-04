@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.p-timeline-event-opposite {
+  display: none;
+}
+
+.line-none {
+  list-style-type: none;
+}
+
+h1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.p-card-title {
+  font-size: 1.2rem !important;
+}
