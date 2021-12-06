@@ -122,6 +122,56 @@ export default function Home() {
           <h3>Work Experience</h3>
           <Timeline value={events} align="left" content={customEvent} />
         </section>
+        <section>
+          <h3>Personal Project</h3>
+          <span>
+            <strong>Whatsdown Chat App</strong> (NextJs, Styled Components,
+            Material UI, Firebase)
+            <br /> Hobby project which I built to learn NextJs. Its a real time
+            chat app which is inspired by Whatsapp's Web format. You can check
+            the live demo{" "}
+            <a href="https://whatsdown.vercel.app/">
+              <em>here</em>
+            </a>{" "}
+            or by going to "https://whatsdown.vercel.app/"
+            <ul>
+              <li>Used the real-time messaging feature from firebase</li>
+              <li>Makes use of google firebase authentication</li>
+              <li>
+                Made use of MaterialUI components and Styled Component for CSS
+                in JS
+              </li>
+            </ul>
+          </span>
+          <span>
+            <strong>Technical Blogging in Dev.to</strong>
+            <br /> Apart from just tinkering around and building stuffs, I also
+            write my thoughts and findings in Dev.to. You can read about my
+            blogs{" "}
+            <a href="https://dev.to/_mohanmurali">
+              <em>here</em>
+            </a>{" "}
+            or by going to "https://dev.to/_mohanmurali"
+          </span>
+        </section>
+        <section>
+          <h3>Education</h3>
+          <span>
+            <strong>Bachleor In Mechanical Engineering</strong> from{" "}
+            <em>Sri Sairam Engineering College, Anna University</em> Chennai
+          </span>
+        </section>
+        <section>
+          <h3>Hobbies & Interests</h3>
+          <span>
+            <p>
+              I like to read Fantasy Novels, and play games which has some
+              element of fantasy in It. Apart from that, I like to travel to
+              different places and try different food. I love nature and
+              mountains and like to go on long walking treks.
+            </p>
+          </span>
+        </section>
       </main>
     </div>
   );
