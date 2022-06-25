@@ -128,12 +128,12 @@ export default function Home() {
             <strong>Whatsdown Chat App</strong> (NextJs, Styled Components,
             Material UI, Firebase)
             <br /> Hobby project which I built to learn NextJs. Its a real time
-            chat app which is inspired by Whatsapp's Web format. You can check
-            the live demo{" "}
+            chat app which is inspired by Whatsapp&apos;s Web format. You can
+            check the live demo{" "}
             <a href="https://whatsdown.vercel.app/">
               <em>here</em>
             </a>{" "}
-            or by going to "https://whatsdown.vercel.app/"
+            or by going to &ldquo;https://whatsdown.vercel.app/&ldquo;
             <ul>
               <li>Used the real-time messaging feature from firebase</li>
               <li>Makes use of google firebase authentication</li>
@@ -144,6 +144,23 @@ export default function Home() {
             </ul>
           </span>
           <span>
+            <strong>Bhramand Nayak Discord Bot</strong> (Node.Js, Discrod.js)
+            <br /> During the pandamic discord became my primary socializing
+            platoform. While using discord, I came accross useful bots. Bhramand
+            Nayak is a bot I created. You can see its functionalities
+            <a href="https://github.com/mohan-murali/bhramand-nayak/blob/main/Readme.md">
+              <em>here</em>
+            </a>{" "}
+            or by going to
+            &ldquo;https://github.com/mohan-murali/bhramand-nayak/blob/main/Readme.md&ldquo;
+            <ul>
+              <li>Can set a reminder</li>
+              <li>Can tell a joke</li>
+              <li>Tells you the horoscope for the day</li>
+              <li>Tells you an inspirational quote</li>
+            </ul>
+          </span>
+          <span>
             <strong>Technical Blogging in Dev.to</strong>
             <br /> Apart from just tinkering around and building stuffs, I also
             write my thoughts and findings in Dev.to. You can read about my
@@ -151,7 +168,7 @@ export default function Home() {
             <a href="https://dev.to/_mohanmurali">
               <em>here</em>
             </a>{" "}
-            or by going to "https://dev.to/_mohanmurali"
+            or by going to &ldquo;https://dev.to/_mohanmurali&ldquo;
           </span>
         </section>
         <section>
