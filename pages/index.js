@@ -147,7 +147,7 @@ export default function Home() {
             <strong>Bhramand Nayak Discord Bot</strong> (Node.Js, Discrod.js)
             <br /> During the pandamic discord became my primary socializing
             platoform. While using discord, I came accross useful bots. Bhramand
-            Nayak is a bot I created. You can see its functionalities
+            Nayak is a bot I created. You can see its functionalities{" "}
             <a href="https://github.com/mohan-murali/bhramand-nayak/blob/main/Readme.md">
               <em>here</em>
             </a>{" "}
