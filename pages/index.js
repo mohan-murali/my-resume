@@ -17,7 +17,7 @@ export default function Home() {
   const events = [
     {
       title: "Lead Product Engineer",
-      company: "Nepris Inc (payroll TEQNirvana)",
+      company: "Nepris Inc (payroll GPracta)",
       date: "Apr 2021 - Present",
       location: "Bangalore",
       technologies:
