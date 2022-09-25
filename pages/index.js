@@ -8,7 +8,7 @@ import Event from "../components/Event";
 export default function Home() {
   const socials = [
     { icon: "pi-envelope", name: "mohanmuralid28@gmail.com" },
-    { icon: "pi-phone", name: "+918056099130" },
+    { icon: "pi-phone", name: "+447767934699" },
     { icon: "pi-globe", name: "mohan-murali.netlify.app" },
     { icon: "pi-github", name: "github.com/mohan-murali" },
     { icon: "pi-linkedin", name: "linkedin.com/in/mohan-murali-b-m-24903864/" },
@@ -18,7 +18,7 @@ export default function Home() {
     {
       title: "Lead Product Engineer",
       company: "Nepris Inc (payroll GPracta)",
-      date: "Apr 2021 - Present",
+      date: "Apr 2021 - Sep 2022",
       location: "Bangalore",
       technologies:
         "Dotnet Core, ReactJs, NextJs, Kendo React, Azure Functions, Azure SQL, Azure App Service",
@@ -92,15 +92,16 @@ export default function Home() {
             </section>
             <section>
               <p>
-                Entusiastic and passionate software develeloper with over 10+
+                Enthusiastic and passionate software developer with over 10+
                 years of professional experience in developing fullstack
                 applications using various javascript and dotnet frameworks.
                 Worked in agile as well as waterfall software models and have a
-                good understanding of both funtional and object oriented
+                good understanding of both functional and object oriented
                 programming paradigms.
               </p>
             </section>
           </div>
+
           <section>
             {socials.map((x, i) => (
               <Socials key={`${i}-${x.icon}`} icon={x.icon} name={x.name} />
@@ -117,6 +118,13 @@ export default function Home() {
               />
             </span>
           ))}
+        </section>
+        <section>
+          <h3>Education</h3>
+          <span>
+            <strong>Masters in cloud computing</strong> from{" "}
+            <em>University of Leicester</em> UK, Sep 2022 - Present
+          </span>
         </section>
         <section>
           <h3>Work Experience</h3>
@@ -171,13 +179,7 @@ export default function Home() {
             or by going to &ldquo;https://dev.to/_mohanmurali&ldquo;
           </span>
         </section>
-        <section>
-          <h3>Education</h3>
-          <span>
-            <strong>Bachleor In Mechanical Engineering</strong> from{" "}
-            <em>Sri Sairam Engineering College, Anna University</em> Chennai
-          </span>
-        </section>
+
         <section>
           <h3>Hobbies & Interests</h3>
           <span>
