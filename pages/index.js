@@ -1,9 +1,9 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import { Timeline } from "primereact/timeline";
 import { Button } from "primereact/button";
-import Socials from "../components/Socials";
+import { Timeline } from "primereact/timeline";
 import Event from "../components/Event";
+import Socials from "../components/Socials";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const socials = [
@@ -16,6 +16,17 @@ export default function Home() {
 
   const events = [
     {
+      title: "Student Innovation Assistant",
+      company: "Leicester Innovation Hub, University of Leicester (part-time)",
+      date: "Jan 2023 - Apr 2023",
+      location: "Leicester, Uk",
+      technologies: "ReactJs, NextJs, NodeJs, Google Lightspeed APIs, CO2Js",
+      roles: [
+        "Collaborated closely with the client to design and implement the complete backend API.",
+        "Developed the backend infrastructure for https://www.webzero.earth/, a website dedicated to calculating carbon emissions for web pages.",
+      ],
+    },
+    {
       title: "Lead Product Engineer",
       company: "Nepris Inc (payroll GPracta)",
       date: "Apr 2021 - Sep 2022",
@@ -23,10 +34,10 @@ export default function Home() {
       technologies:
         "Dotnet Core, ReactJs, NextJs, Kendo React, Azure Functions, Azure SQL, Azure App Service",
       roles: [
-        "Worked on Azure Functions API for a new seasonal feature which helped in increasing the new customers registrations by 12%",
-        "Worked with CTO and the solution architect to design and impliment end to end message delivery service inside Nepris",
-        "Created the users public facing profile page",
-        "Created bash script to help in genration of common servicestack API's request and response files",
+        "Spearheaded the development of an Azure Functions API for a novel seasonal feature, resulting in a notable 12% increase in new customer registrations.",
+        "Collaborated closely with the Chief Technology Officer (CTO) and the solution architect to conceptualize and execute a comprehensive end-to-end message delivery service within the Nepris platform.",
+        "Designed and constructed user-facing public profile pages to enhance the overall user experience.",
+        "Innovatively crafted a Bash script to streamline the generation of essential ServiceStack API request and response files, enhancing efficiency and productivity within the development workflow.",
       ],
     },
     {
@@ -37,9 +48,9 @@ export default function Home() {
       technologies:
         "Dotnet Core, ReactJs, Redux, Redux thunks, Azure App Service, Teamcity, Splunk",
       roles: [
-        "Worked on an application to reduce the manual documentation for home loan application which increased the home loan conversion rate by 18%",
-        "Created a POC GraphQL API using dotnet core hotchoclate framework and express with prisma framework along with Apollo react in the front end to show the usecases of a graphQL API to the clients",
-        "Was actively taking part in mentoring and training both new joinees and experienced folks in ReactJs and Redux",
+        "Led the development of an application aimed at automating manual documentation for home loan applications, resulting in a substantial 18% boost in home loan conversion rates.",
+        "Successfully crafted a Proof of Concept (POC) GraphQL API utilizing the Dotnet Core HotChocolate framework and Express in combination with the Prisma framework. Implemented the Apollo React library on the front end to effectively demonstrate the utility and versatility of GraphQL API to clients.",
+        "Actively engaged in mentoring and training activities, providing guidance and knowledge transfer to both new hires and seasoned professionals in ReactJs and Redux, contributing to the skill development and growth of the team.",
       ],
     },
     {
@@ -49,8 +60,8 @@ export default function Home() {
       location: "Chennai",
       technologies: "VB6, Dotnet WebApi 2, JQuery, Kendo UI, SQL Server",
       roles: [
-        "Automated common document genration which was  a common pain point to the team",
-        "Worked in maintenance of excel macro based application which a VB6 server. Was later part of the development team to migrate this excel based app into a web application",
+        "Spearheaded the automation of routine document generation, effectively alleviating a prevalent pain point within the team.",
+        "Played a pivotal role in maintaining an Excel macro-based application, initially developed on a VB6 server. Subsequently, joined the development team to orchestrate the seamless migration of this Excel-based application into a modern web-based platform.",
       ],
     },
   ];
@@ -63,11 +74,11 @@ export default function Home() {
     "NextJs",
     "Redux",
     "Dotnet Core",
-    "Service Stack",
-    "HTML/CSS",
     "NodeJs",
     "ExpressJs",
     "SQL Server",
+    "MongoDB",
+    "HTML/CSS",
     "Postman",
     "Git & GitHub",
   ];
@@ -92,12 +103,12 @@ export default function Home() {
             </section>
             <section>
               <p>
-                Enthusiastic and passionate software developer with over 10+
-                years of professional experience in developing fullstack
-                applications using various javascript and dotnet frameworks.
-                Worked in agile as well as waterfall software models and have a
-                good understanding of both functional and object oriented
-                programming paradigms.
+                Dedicated and passionate software developer with over a decade
+                of professional experience in creating full-stack applications
+                using a wide array of JavaScript and .NET frameworks. Proficient
+                in working within both Agile and Waterfall software development
+                methodologies, and possessing a strong grasp of both functional
+                and object-oriented programming paradigms.
               </p>
             </section>
           </div>
@@ -119,13 +130,7 @@ export default function Home() {
             </span>
           ))}
         </section>
-        <section>
-          <h3>Education</h3>
-          <span>
-            <strong>Masters in cloud computing</strong> from{" "}
-            <em>University of Leicester</em> UK, Sep 2022 - Present
-          </span>
-        </section>
+
         <section>
           <h3>Work Experience</h3>
           <Timeline value={events} align="left" content={customEvent} />
@@ -179,7 +184,13 @@ export default function Home() {
             or by going to &ldquo;https://dev.to/_mohanmurali&ldquo;
           </span>
         </section>
-
+        <section>
+          <h3>Education</h3>
+          <span>
+            <strong>Masters in cloud computing</strong> from{" "}
+            <em>University of Leicester</em> UK, Sep 2022 - Present
+          </span>
+        </section>
         <section>
           <h3>Hobbies & Interests</h3>
           <span>
