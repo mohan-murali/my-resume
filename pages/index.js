@@ -20,7 +20,8 @@ export default function Home() {
       company: "Leicester Innovation Hub, University of Leicester (part-time)",
       date: "Jan 2023 - Apr 2023",
       location: "Leicester, Uk",
-      technologies: "ReactJs, NextJs, NodeJs, Google Lightspeed APIs, CO2Js",
+      technologies:
+        "ReactJs, NextJs, NodeJs, ExpressJs, Google Lightspeed APIs, CO2Js",
       roles: [
         "Collaborated closely with the client to design and implement the complete backend API.",
         "Developed the backend infrastructure for https://www.webzero.earth/, a website dedicated to calculating carbon emissions for web pages.",
@@ -32,7 +33,7 @@ export default function Home() {
       date: "Apr 2021 - Sep 2022",
       location: "Bangalore",
       technologies:
-        "Dotnet Core, ReactJs, NextJs, Kendo React, Azure Functions, Azure SQL, Azure App Service",
+        "Dotnet Core, ExpressJs, ReactJs, NextJs, Kendo React, Azure Functions, Azure SQL, Azure App Service",
       roles: [
         "Spearheaded the development of an Azure Functions API for a novel seasonal feature, resulting in a notable 12% increase in new customer registrations.",
         "Collaborated closely with the Chief Technology Officer (CTO) and the solution architect to conceptualize and execute a comprehensive end-to-end message delivery service within the Nepris platform.",
@@ -46,7 +47,7 @@ export default function Home() {
       date: "Jan 2018 - Mar 2021",
       location: "Chennai",
       technologies:
-        "Dotnet Core, ReactJs, Redux, Redux thunks, Azure App Service, Teamcity, Splunk",
+        "Dotnet Core, ExpressJs, ReactJs, Redux, Redux thunks, Azure App Service, Teamcity, Splunk",
       roles: [
         "Led the development of an application aimed at automating manual documentation for home loan applications, resulting in a substantial 18% boost in home loan conversion rates.",
         "Successfully crafted a Proof of Concept (POC) GraphQL API utilizing the Dotnet Core HotChocolate framework and Express in combination with the Prisma framework. Implemented the Apollo React library on the front end to effectively demonstrate the utility and versatility of GraphQL API to clients.",
@@ -157,9 +158,9 @@ export default function Home() {
             </ul>
           </span>
           <span>
-            <strong>Bhramand Nayak Discord Bot</strong> (Node.Js, Discrod.js)
-            <br /> During the pandamic discord became my primary socializing
-            platoform. While using discord, I came accross useful bots. Bhramand
+            <strong>Bhramand Nayak Discord Bot</strong> (Node.Js, Discord.js)
+            <br /> During the pandamic discord became my primary socialising
+            platform. While using discord, I came accross useful bots. Bhramand
             Nayak is a bot I created. You can see its functionalities{" "}
             <a href="https://github.com/mohan-murali/bhramand-nayak/blob/main/Readme.md">
               <em>here</em>
@@ -195,10 +196,11 @@ export default function Home() {
           <h3>Hobbies & Interests</h3>
           <span>
             <p>
-              I like to read Fantasy Novels, and play games which has some
-              element of fantasy in It. Apart from that, I like to travel to
-              different places and try different food. I love nature and
-              mountains and like to go on long walking treks.
+              I like to read Fantasy Novels/Mangas, and play games which have
+              some element of fantasy in it. I also love watching anime. Apart
+              from that, I like to travel to different places and try different
+              food. I love nature and mountains and like to go on long walking
+              treks.
             </p>
           </span>
         </section>
