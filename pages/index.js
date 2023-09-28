@@ -9,9 +9,17 @@ export default function Home() {
   const socials = [
     { icon: "pi-envelope", name: "mohanmuralid28@gmail.com" },
     { icon: "pi-phone", name: "+447767934699" },
-    { icon: "pi-globe", name: "mohan-murali.netlify.app" },
-    { icon: "pi-github", name: "github.com/mohan-murali" },
-    { icon: "pi-linkedin", name: "linkedin.com/in/mohan-murali-b-m-24903864/" },
+    { icon: "pi-globe", name: "mohan-murali.netlify.app", type: "link" },
+    { icon: "pi-github", name: "github.com/mohan-murali", type: "link" },
+    {
+      icon: "pi-linkedin",
+      name: "linkedin.com/in/mohan-murali-b-m/",
+      type: "link",
+    },
+    {
+      icon: "pi-home",
+      name: "138 Jarrom Street, Leicester, United Kingdom LE2 7DF",
+    },
   ];
 
   const events = [
@@ -104,19 +112,26 @@ export default function Home() {
             </section>
             <section>
               <p>
-                Dedicated and passionate software developer with over a decade
-                of professional experience in creating full-stack applications
-                using a wide array of JavaScript and .NET frameworks. Proficient
-                in working within both Agile and Waterfall software development
-                methodologies, and possessing a strong grasp of both functional
-                and object-oriented programming paradigms.
+                Highly skilled and dedicated software developer with over a
+                decade of extensive experience in architecting and crafting
+                full-stack applications, utilizing a diverse range of
+                frameworks. Adept at adapting to emerging technologies and
+                committed to continuous learning. Proficient in Agile and
+                Waterfall software development methodologies, with a
+                comprehensive understanding of both functional and
+                object-oriented programming paradigms.
               </p>
             </section>
           </div>
 
           <section>
             {socials.map((x, i) => (
-              <Socials key={`${i}-${x.icon}`} icon={x.icon} name={x.name} />
+              <Socials
+                key={`${i}-${x.icon}`}
+                icon={x.icon}
+                name={x.name}
+                type={x.type}
+              />
             ))}
           </section>
         </header>
@@ -189,10 +204,10 @@ export default function Home() {
           <h3>Education</h3>
           <span>
             <strong>Masters in cloud computing</strong> from{" "}
-            <em>University of Leicester</em> UK, Sep 2022 - Present
+            <em>University of Leicester</em> UK, Sep 2022 - Sep 2023
           </span>
         </section>
-        <section>
+        {/* <section>
           <h3>Hobbies & Interests</h3>
           <span>
             <p>
@@ -203,7 +218,7 @@ export default function Home() {
               treks.
             </p>
           </span>
-        </section>
+        </section> */}
       </main>
     </div>
   );
