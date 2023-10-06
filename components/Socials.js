@@ -4,7 +4,11 @@ const Socials = ({ icon, name, type }) => {
     <ul className="p-pr-1">
       <li className="line-none">
         <i className={`pi ${icon} p-mr-2`}></i>
-        {type === "link" ? <a href={name}>{name}</a> : <label>{name}</label>}
+        {type === "link" ? (
+          <a href={`https://${name}`}>{name}</a>
+        ) : (
+          <label>{name}</label>
+        )}
       </li>
     </ul>
   );
