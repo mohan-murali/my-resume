@@ -9,16 +9,15 @@ export default function Home() {
   const socials = [
     { icon: "pi-envelope", name: "mohanmuralid28@gmail.com" },
     { icon: "pi-phone", name: "+447767934699" },
-    { icon: "pi-globe", name: "mohan-murali.netlify.app", type: "link" },
-    { icon: "pi-github", name: "github.com/mohan-murali", type: "link" },
+    { icon: "pi-globe", name: "mohan-murali.netlify.app" },
+    { icon: "pi-github", name: "github.com/mohan-murali" },
     {
       icon: "pi-linkedin",
       name: "linkedin.com/in/mohan-murali-b-m/",
-      type: "link",
     },
     {
       icon: "pi-home",
-      name: "138 Jarrom Street, Leicester, United Kingdom LE2 7DF",
+      name: "Leicester, United Kingdom ",
     },
   ];
 
@@ -153,7 +152,7 @@ export default function Home() {
         </section>
         <section>
           <h3>Personal Project</h3>
-          <span>
+          <div className={styles.project}>
             <strong>Whatsdown Chat App</strong> (NextJs, Styled Components,
             Material UI, Firebase)
             <br /> Hobby project which I built to learn NextJs. Its a real time
@@ -163,16 +162,8 @@ export default function Home() {
               <em>here</em>
             </a>{" "}
             or by going to &ldquo;https://whatsdown.vercel.app/&ldquo;
-            <ul>
-              <li>Used the real-time messaging feature from firebase</li>
-              <li>Makes use of google firebase authentication</li>
-              <li>
-                Made use of MaterialUI components and Styled Component for CSS
-                in JS
-              </li>
-            </ul>
-          </span>
-          <span>
+          </div>
+          <div className={styles.project}>
             <strong>Bhramand Nayak Discord Bot</strong> (Node.Js, Discord.js)
             <br /> During the pandamic discord became my primary socialising
             platform. While using discord, I came accross useful bots. Bhramand
@@ -182,14 +173,8 @@ export default function Home() {
             </a>{" "}
             or by going to
             &ldquo;https://github.com/mohan-murali/bhramand-nayak/blob/main/Readme.md&ldquo;
-            <ul>
-              <li>Can set a reminder</li>
-              <li>Can tell a joke</li>
-              <li>Tells you the horoscope for the day</li>
-              <li>Tells you an inspirational quote</li>
-            </ul>
-          </span>
-          <span>
+          </div>
+          <div className={styles.project}>
             <strong>Technical Blogging in Dev.to</strong>
             <br /> Apart from just tinkering around and building stuffs, I also
             write my thoughts and findings in Dev.to. You can read about my
@@ -198,7 +183,7 @@ export default function Home() {
               <em>here</em>
             </a>{" "}
             or by going to &ldquo;https://dev.to/_mohanmurali&ldquo;
-          </span>
+          </div>
         </section>
         <section>
           <h3>Education</h3>
