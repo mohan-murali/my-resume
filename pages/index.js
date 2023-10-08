@@ -155,6 +155,13 @@ export default function Home() {
           <Timeline value={events} align="left" content={customEvent} />
         </section>
         <section>
+          <h3>Education</h3>
+          <span>
+            <strong>Masters in cloud computing</strong> from{" "}
+            <em>University of Leicester</em> UK, Sep 2022 - Sep 2023
+          </span>
+        </section>
+        <section>
           <h3>Personal Project</h3>
           <div className={styles.project}>
             <strong>Whatsdown Chat App</strong> (NextJs, Styled Components,
@@ -189,13 +196,7 @@ export default function Home() {
             or by going to &ldquo;https://dev.to/_mohanmurali&ldquo;
           </div>
         </section>
-        <section>
-          <h3>Education</h3>
-          <span>
-            <strong>Masters in cloud computing</strong> from{" "}
-            <em>University of Leicester</em> UK, Sep 2022 - Sep 2023
-          </span>
-        </section>
+
         {/* <section>
           <h3>Hobbies & Interests</h3>
           <span>
