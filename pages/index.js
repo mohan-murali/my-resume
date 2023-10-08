@@ -9,11 +9,15 @@ export default function Home() {
   const socials = [
     { icon: "pi-envelope", name: "mohanmuralid28@gmail.com" },
     { icon: "pi-phone", name: "+447767934699" },
-    { icon: "pi-globe", name: "mohan-murali.netlify.app" },
+    {
+      icon: "pi-globe",
+      name: "mohan-murali.netlify.app/",
+      type: "link",
+    },
     { icon: "pi-github", name: "github.com/mohan-murali" },
     {
       icon: "pi-linkedin",
-      name: "linkedin.com/in/mohan-murali-b-m/",
+      name: "linkedin.com/in/mohan-b-m/",
     },
     {
       icon: "pi-home",
@@ -123,7 +127,7 @@ export default function Home() {
             </section>
           </div>
 
-          <section>
+          <section className={styles.socials}>
             {socials.map((x, i) => (
               <Socials
                 key={`${i}-${x.icon}`}
